@@ -1,5 +1,6 @@
 # base code
 import numpy as np
+import pandas as pd
 import seaborn as sns
 import statsmodels
 from statsmodels.tools.tools import maybe_unwrap_results
