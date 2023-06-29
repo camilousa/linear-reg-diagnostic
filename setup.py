@@ -7,6 +7,7 @@ setup(
     packages=['linear_reg_diagnostic'],
     install_requires=[
         'numpy',
+        'statsmodels',
         'seaborn',
         'matplotlib'
     ],
