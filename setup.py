@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="lineardiagnostic",
+    name="linear-reg-diagnostic",
     version="1.0",
-    packages=find_packages(['linear_reg_diagnostic', 'linear_reg_diagnostic.*']),
+    packages=['linear_reg_diagnostic'],
     url="https://www.statsmodels.org/dev/examples/notebooks/generated/linear_regression_diagnostics_plots.html"
 )
