@@ -1,6 +1,7 @@
 # base code
 import numpy as np
 import seaborn as sns
+import statsmodels
 from statsmodels.tools.tools import maybe_unwrap_results
 from statsmodels.graphics.gofplots import ProbPlot
 from statsmodels.stats.outliers_influence import variance_inflation_factor
