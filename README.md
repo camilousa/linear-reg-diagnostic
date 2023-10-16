@@ -9,6 +9,8 @@
 
 * Example:
 ```python
+from linear_reg_diagnostic.graphics import LinearRegDiagnostic
+model = formula.ols(formula="np.log(mpg) ~ horsepower + I(horsepower ** 2)", data=df).fit()
 cls = LinearRegDiagnostic(res)
 cls.residual_plot()
 ```
